@@ -445,6 +445,16 @@
             <value n="URI" v="http://xmlns.oracle.com/adf/faces/rich/component"/>
             <value n="version" v="11"/>
          </hash>
+         <hash>
+            <value n="libraries" v="ADF Faces Components"/>
+            <value n="name" v="MyDeclComponents"/>
+            <value n="prefix" v="mc"/>
+            <value n="runInEditor" v="true"/>
+            <value n="showInPalette" v="true"/>
+            <value n="taglibURL" v="@project@public_html/lib/adfLibDeclarativeCom.jar!/META-INF/mydeclcomponents.taglib.xml"/>
+            <value n="URI" v="/mycomponents"/>
+            <value n="version" v="2.0"/>
+         </hash>
       </list>
    </hash>
    <hash n="oracle.jdevimpl.webapp.jsp.libraries.model.ProjectTagLibraries">

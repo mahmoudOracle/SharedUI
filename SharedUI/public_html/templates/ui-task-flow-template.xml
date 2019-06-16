@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-template id="ui-task-flow-template">
+    <data-control-scope>
+      <shared/>
+    </data-control-scope>
+    <exception-handler>errorPage</exception-handler>
+    <view id="errorPage"></view>
+    <view id="aboutPage"></view>
+    <control-flow-rule id="__1">
+      <from-activity-id>*</from-activity-id>
+      <control-flow-case id="__2">
+        <from-outcome>goAbout</from-outcome>
+        <to-activity-id>aboutPage</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <use-page-fragments/>
+  </task-flow-template>
+</adfc-config>

@@ -2,7 +2,7 @@
 <Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
              SeparateXMLFiles="false" Package="ui" ClientType="Generic">
   <pageMap>
-    <page path="/pageTemplateUI.jsf" usageId="ui_pageTemplateUIPageDef"/>
+    <page path="/templates/pageTemplateUI.jsf" usageId="ui_pageTemplateUIPageDef"/>
   </pageMap>
   <pageDefinitionUsages>
     <page id="ui_pageTemplateUIPageDef" path="ui.pageDefs.pageTemplateUIPageDef"/>
